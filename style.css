@@ -1,0 +1,44 @@
+/* Colors and fonts */
+body {
+  background-color: rgb(100, 100, 100);
+  color: rgb(30, 30, 30);
+  font-family: Helvetica;
+  font-size: 24px; 
+  line-height: 1;
+  letter-spacing: 5px;
+  font-weight: lighter;
+}
+
+h1 {
+  color: blue; /* remove extra colon */
+  font-size: 30px;
+}
+
+h2 {
+  color: blue;
+  font-size: 30px;
+}
+
+h3 {
+  color: blue;
+  font-size: 30px;
+}
+
+.center-text {
+  text-align: center;
+}
+div {
+  border-top: 2px solid red;
+  border-right: 2px dotted black;
+  border-bottom: 1px dashed green;
+  border-left: 2px dotted black;
+}
+.custom-box {
+  border-top: 2px solid red;
+  border-right: 2px dotted black;
+  border-bottom: 1px dashed green;
+  border-left: 2px dotted black;
+  padding: 20px;
+  margin: 20px;
+  background-color: white;
+}
